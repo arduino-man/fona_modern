@@ -33,7 +33,7 @@ defmodule Fona.Mixfile do
       files: ["lib", "priv", "mix.exs", "README*", "LICENSE*"],
       maintainers: ["James Smith", "Mario Solorzano"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/st23am/fona"}
+      links: %{"GitHub" => "https://github.com/arduino-man/fona_modern"}
     ]
   end
 
