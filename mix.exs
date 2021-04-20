@@ -2,7 +2,7 @@ defmodule Fona.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :fona,
+    [app: :fona_modern,
      version: "0.2.0",
      elixir: "~> 1.11",
      build_embedded: Mix.env == :prod,
@@ -30,7 +30,7 @@ defmodule Fona.Mixfile do
 
   defp package() do
     [
-      files: ["lib", "priv", "mix.exs", "README*", "LICENSE*"],
+      files: ["lib", "mix.exs", "README*", "LICENSE*"],
       maintainers: ["James Smith", "Mario Solorzano"],
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/arduino-man/fona_modern"}
