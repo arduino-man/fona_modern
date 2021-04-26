@@ -13,6 +13,12 @@ def deps do
   [{:fona_modern, "~> 0.2.0"}]
 end
 ```
+Raspberry Pi devices mat present an issue where talking to the Fona 808 is unstable.
+Solve it by adding the following line to your project configuration:
+
+```elixir
+config :nerves, :erlinit, ctty: "ttyS0"
+```
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
